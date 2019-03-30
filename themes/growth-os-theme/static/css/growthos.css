@@ -1,7 +1,10 @@
 body {
   max-width: 1400px;
+  width: 80%;
+  margin: auto;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
-    Helvetica, Arial, "Lucida Grande", sans-serif;
+    Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-size: 110%;
 }
 
 nav {
@@ -20,27 +23,25 @@ nav {
 
 nav div#logo {
   width: 200px;
-
 }
 
-
-div#logo > a{
+div#logo > a {
   text-decoration: none;
 }
 
-div#logo > a > span{
+div#logo > a > span {
   padding: 0px;
   margin: 0px;
   color: #aaa;
   display: inline-block;
 }
 
-div#logo > a > span#logo-growth{
+div#logo > a > span#logo-growth {
 }
 
-div#logo > a > span#logo-os{
-    font-weight: bolder;
-    color: #3BB3BD;
+div#logo > a > span#logo-os {
+  font-weight: bolder;
+  color: #3bb3bd;
 }
 
 nav span.navitem {
@@ -58,7 +59,7 @@ nav span.navitem {
 }
 
 nav span.navitem:hover {
-  background-color: rgb( 40, 44, 47 );
+  background-color: rgb(40, 44, 47);
 }
 
 nav > div#navitems > span.navitem > a {
@@ -66,4 +67,55 @@ nav > div#navitems > span.navitem > a {
   text-decoration: none;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+div.infoblock {
+  min-height: 300px;
+  margin-bottom: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+div.infoblock > h1 {
+  font-weight: 100;
+  text-align: center;
+}
+
+div.infoblock-color {
+  color: #fff;
+  background-color: #3bb3bd;
+}
+
+div.info-container-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+div.info-container-block {
+  width: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+  min-height: 200px;
+}
+
+div.info-container-block > h2 {
+  text-align: center;
+}
+
+button {
+    margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 200%;
+  background-color: #3bb3bd;
+  color: #fff;
+  padding: 15px 32px;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.055);
 }
