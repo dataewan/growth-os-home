@@ -1,5 +1,51 @@
 body {
-    max-width: 1400px;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  max-width: 1400px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #fff;
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+  color: #888;
+  overflow: hidden;
+  padding: 10px;
+}
+
+nav div#logo {
+  width: 200px;
+
+}
+
+
+div#logo > a{
+  text-decoration: none;
+}
+
+div#logo > a > span{
+  padding: 0px;
+  margin: 0px;
+  color: #aaa;
+}
+
+nav div.navitem {
+  margin: 0;
+  padding: 0;
+
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+nav > div#navitems > span.navitem > a {
+  color: #aaa;
+  text-decoration: none;
+  padding-left: 20px;
+}
