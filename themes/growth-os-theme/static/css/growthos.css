@@ -7,6 +7,21 @@ body {
   font-size: 110%;
 }
 
+div.logoholder {
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+div.logoholder > img {
+    max-height: 150px;
+    padding-left: 50px;
+}
+
+div.logoholder > div#heading-logo-text {
+    font-size: 200%;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
