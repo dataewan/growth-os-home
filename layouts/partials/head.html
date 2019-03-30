@@ -3,11 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width" />
-        {{ if .IsHome -}}
-        <title>{{ .Site.Title }}</title>
-        {{- else -}}
-        <title>{{ .Title }} &middot; {{ .Site.Title }}</title>
-        {{- end -}}
+        <title>Growth Operating System</title>
         <link rel="stylesheet" href="/css/growthos.css" type="text/css" media="screen" title="growth os" charset="utf-8">
     </head>
 
@@ -21,13 +17,13 @@
                 </div>
                 <div id="navitems">
                     <span class="navitem">
-                        <a href="/">Growth OS</a>
+                        <a href="{{ .Site.BaseURL }}/">Growth OS</a>
                     </span>
                     <span class="navitem">
-                        <a href="outline">Course Outline</a>
+                        <a href="{{ .Site.BaseURL }}/outline">Course Outline</a>
                     </span>
                     <span class="navitem">
-                        <a href="contact">Contact</a>
+                        <a href="{{ .Site.BaseURL }}/contact">Contact</a>
                     </span>
                 </div>
             </nav>
