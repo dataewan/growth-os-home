@@ -14,7 +14,8 @@ nav {
   box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
   color: #888;
   overflow: hidden;
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 nav div#logo {
@@ -31,9 +32,18 @@ div#logo > a > span{
   padding: 0px;
   margin: 0px;
   color: #aaa;
+  display: inline-block;
 }
 
-nav div.navitem {
+div#logo > a > span#logo-growth{
+}
+
+div#logo > a > span#logo-os{
+    font-weight: bolder;
+    color: #3BB3BD;
+}
+
+nav span.navitem {
   margin: 0;
   padding: 0;
 
@@ -42,10 +52,18 @@ nav div.navitem {
   -ms-transition: all 0.2s;
   -o-transition: all 0.2s;
   transition: all 0.2s;
+
+  text-align: center;
+  margin: auto;
+}
+
+nav span.navitem:hover {
+  background-color: rgb( 40, 44, 47 );
 }
 
 nav > div#navitems > span.navitem > a {
   color: #aaa;
   text-decoration: none;
-  padding-left: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
