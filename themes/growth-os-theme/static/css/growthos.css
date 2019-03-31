@@ -3,23 +3,23 @@ body {
   width: 80%;
   margin: auto;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
-    Helvetica, Arial, "Lucida Grande", sans-serif; 
+    Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 110%;
 }
 
 div.logoholder {
-    height: 150px;
-    display: flex;
-    align-items: center;
+  height: 150px;
+  display: flex;
+  align-items: center;
 }
 
 div.logoholder > img {
-    max-height: 150px;
-    padding-left: 50px;
+  max-height: 150px;
+  padding-left: 50px;
 }
 
 div.logoholder > div#heading-logo-text {
-    font-size: 200%;
+  font-size: 200%;
 }
 
 nav {
@@ -73,11 +73,15 @@ nav span.navitem {
   margin: auto;
 }
 
+nav > div#navitems-container {
+  display: flex;
+}
+
 nav span.navitem:hover {
   background-color: rgb(40, 44, 47);
 }
 
-nav > div#navitems > span.navitem > a {
+nav > div#navitems-container > span.navitem > a {
   color: #aaa;
   text-decoration: none;
   padding-left: 10px;
@@ -121,7 +125,7 @@ div.info-container-block > h2 {
 }
 
 button {
-    margin-top: 20px;
+  margin-top: 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -133,4 +137,26 @@ button {
   margin-left: 30%;
   margin-right: 30%;
   box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.055);
+}
+
+/* change the layout on mobile devices */
+@media only screen and (max-width: 500px) {
+  button {
+    font-size: 100%;
+  }
+
+  div.info-container-row {
+    flex-direction: column;
+  }
+
+  div.info-container-block {
+    width: 80%;
+    margin: auto;
+  }
+
+  nav > div#navitems-container {
+    flex-direction: column;
+    display: flex;
+  }
+
 }
