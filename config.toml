@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://growth-os-home.firebaseapp.com/"
 languageCode = "en-us"
 title = "Growth Operating System"
 theme = "growth-os-theme"

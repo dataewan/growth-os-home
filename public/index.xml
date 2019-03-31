@@ -1,15 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Growth Operating System on My New Hugo Site</title>
-    <link>http://example.org/</link>
-    <description>Recent content in Growth Operating System on My New Hugo Site</description>
+    <title>Growth Operating System</title>
+    <link>https://growth-os-home.firebaseapp.com/</link>
+    <description>Recent content on Growth Operating System</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 30 Mar 2019 11:54:32 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://growth-os-home.firebaseapp.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Course outline</title>
+      <link>https://growth-os-home.firebaseapp.com/outline/</link>
+      <pubDate>Sat, 30 Mar 2019 16:59:10 +0000</pubDate>
+      
+      <guid>https://growth-os-home.firebaseapp.com/outline/</guid>
+      <description>What do we cover during the Growth OS workshop?
+ Introduction to Growth  What is growth? Sustainable growth versus fake growth  Growth Discipline
+ North star metric  The metric that tells you if you are growing  The pirate metric framework AARRR metrics  How you can measure acquisition, activation, retention, referrals, revenue How to measure growth accurately  Other growth measures  Understanding the long term relationship that you have with your customers Measuring churn and customer lifetime value Funnel analysis Network effects Virality  Product market fit  Are you growing sustainably?</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://growth-os-home.firebaseapp.com/contact/</link>
+      <pubDate>Sat, 30 Mar 2019 16:39:44 +0000</pubDate>
+      
+      <guid>https://growth-os-home.firebaseapp.com/contact/</guid>
+      <description>  Contact  We want to help you grow. If you&#39;re interested in finding out more about our course, or there are other ways that we can help you grow, get in touch with us by sending an email to yara@growth-OS.com.  Contact Us  </description>
+    </item>
     
   </channel>
 </rss>
